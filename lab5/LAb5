@@ -1,0 +1,32 @@
+List size      Time taken by get()            Time taken by next()
+n                   T (n)                             T ′(n)
+50 000           2727.666 milliseconds       35.0 milliseconds
+100 000           9647.0 milliseconds       68.666 milliseconds
+200 000           37204.666 milliseconds    139.0 milliseconds
+400 000           145653.33 milliseconds    258.33333 milliseconds
+
+⋄ What, approximately, are the ratios T (2n)/T (n) (the middle column)?
+9647.0/2727.666 = 3.5
+37293.666/9647.0 = 3.8
+145653.33 / 37293.666 = 3.9
+
+
+⋄ What, approximately, are the ratios T ′(2n)/T ′(n) (the third column)?
+68.666/35 = 1.96
+139/68.666 = 2.0
+258.33/ 139 = 1.85
+
+⋄ Given the measurements obtained, what is your best guess about the order of
+growth of T (n)?
+O(n^2)
+
+⋄ Given the measurements obtained, what is your best guess about the order of
+growth of T ′(n)?
+O(n)
+
+⋄ Which method is more efficient, list.get() or iterator.next()? Why?
+Put your answers to these questions in a text file (include the time measurements as
+evidence to support your answers) and upload that file to Canvas.
+
+iterator.next, is more efficients the compare to the list.get the iterator.get took.
+because the iterator have the waiting behavior of the method .next();
