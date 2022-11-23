@@ -1,0 +1,19 @@
+Exercise 10.1 Why bother with two different representations of a list?
+
+depending on what is your goal, using different implementation of the list, one can be more efficient
+than other one, for example accessing an item from ar array is constant time whereas for linked-list is linear time
+but for linked-list adding first and last and removing first and last is constant whereas the array is linear
+
+
+
+Exercise 10.2 Fill out the missing entries in the following table:
+
+Table 10.2 ArrayList vs. LinkedList – worst case time complexity comparisons of methods.
+Method                                  ArrayList       LinkedList
+indexOf(E element)                         O(1)              O(n)
+add(int index, E element)                 O(n)              O(n)
+add(E element)                           O(1)               O(1)
+remove(int index)                       O(n)                 O(n)
+set(int index, E element)                O(1)               O(n)
+get(int index)                           O(1)               O(n)
+Iterator.remove()                        O(1)               O(n)
