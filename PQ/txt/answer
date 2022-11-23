@@ -1,0 +1,26 @@
+Please answer the following:
+1) What is the result of running TopMints.java with the 1, 000, 000 integers as input
+(show the output when you demo this lab).
+999986
+999988
+999990
+999995
+999996
+
+It took 0.63 seconds to process 1,000,000 integers using a priority queue.
+
+2) How long did it take for Test 1 to complete on your computer?
+8.1 Write TopMints.java (4 points). 3
+It took 0.63 seconds to process 1,000,000 integers using a priority queue.
+
+3) What is the Big-O running time of Test 1?
+
+O(n log m)
+
+4) How long did it take for Test 2 to complete on your computer?
+It took 0.84 seconds to process 1,000,000 integers by sorting them.
+
+
+5) What is the Big-O running time of Test 2?
+
+O(n log n)
